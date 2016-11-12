@@ -1,3 +1,71 @@
 /* This is a multi-line
 comment. Add your CSS code
 from Unit 1 - 5 below  */
+h1{
+  color:rgb(2, 132, 130);
+  text-align: center;
+}
+
+h2{
+  color:#ffd700;
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #808080;
+}
+
+li{
+  background-color: #ffbf00;
+  color: white;
+  padding: 35px;
+  display: block;
+  float: left;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover{
+    background-color: #ee5f3c;
+}
+
+.clearfix:after{
+      visibility: hidden;
+      display: block;
+      content: " ";
+      clear: both;
+      height: 0;
+      font-size: 0;
+}
+
+.board{
+  height: 50%;
+  width: 50%;
+  display: inline-block;
+}
+
+.card{
+	width: 150px;
+	height: 200px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: yellow;
+  float: left;
+  margin: 8%;
+}
+
+.name{
+  color: #ff0000;
+}
+
+footer{
+  background-color: #808080;
+  text-align: center;
+}
